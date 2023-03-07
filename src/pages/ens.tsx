@@ -31,11 +31,11 @@ import useNfts from '../hooks/useNfts'
 const isDev = process.env.NODE_ENV === 'development'
 
 export default function Home() {
-  const { chain } = useNetwork()
+ // const { chain } = useNetwork()
   const { address } = useAccount()
   const { disconnect } = useDisconnect()
   const { openConnectModal } = useConnectModal()
-  const { nfts, ensNames, isLoading, isError } = useNfts(address, chain)
+  const { nfts, ensNames, isLoading, isError } = useNfts(address)
   const { width: windowWidth, height: windowHeight } = useWindowSize()
 
   const isMounted = useIsMounted()
@@ -303,13 +303,13 @@ function TransactionModal({
         )}
 
         {isLoading && (
-          <Button as="a" href={getEtherscanUrl(data!, chain)} loading>
+          <Button as="a" href={getEtherscanUrl(data!)} loading>
             View on Etherscan
           </Button>
         )}
 
         {isError && (
-          <Button as="a" href={getEtherscanUrl(data!, chain)} state="error">
+          <Button as="a" href={getEtherscanUrl(data!)} state="error">
             Transaction failed
           </Button>
         )}

@@ -1,0 +1,168 @@
+{
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./Brave-AYENFWW6.js": {
+    "id": 49146,
+    "files": [
+      "static/chunks/146.d4488f5d646296aa.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./Browser-MZYY2QO6.js": {
+    "id": 18061,
+    "files": [
+      "static/chunks/61.848ca8ac4edc87a7.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./Chrome-J3SNM3VC.js": {
+    "id": 47096,
+    "files": [
+      "static/chunks/96.0db139694e292a8e.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./Edge-L7ZZC477.js": {
+    "id": 23033,
+    "files": [
+      "static/chunks/33.1bc147ac3a68c706.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./Firefox-JUUNEJSG.js": {
+    "id": 8754,
+    "files": [
+      "static/chunks/754.724e60bd1e05d6f8.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./arbitrum-RJBKFWDE.js": {
+    "id": 96704,
+    "files": [
+      "static/chunks/704.cca964fd96cc59a4.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./assets-7THATBKH.js": {
+    "id": 60119,
+    "files": [
+      "static/chunks/119.8a93228e7a3e4b56.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./avalanche-GTODSNSK.js": {
+    "id": 63376,
+    "files": [
+      "static/chunks/376.9019199b359d7bf8.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./create-GVGWOEGN.js": {
+    "id": 31331,
+    "files": [
+      "static/chunks/331.4f5567b3d0f16606.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./ethereum-TCZSTHSI.js": {
+    "id": 85529,
+    "files": [
+      "static/chunks/529.0290ceddf977ebb0.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./hardhat-VJNBZ2P3.js": {
+    "id": 29586,
+    "files": [
+      "static/chunks/586.1ddf0682ac6e4b33.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./login-EJZTP74Q.js": {
+    "id": 75625,
+    "files": [
+      "static/chunks/625.d9f5e46f919b901a.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./optimism-3QUIF6AD.js": {
+    "id": 39849,
+    "files": [
+      "static/chunks/849.8a97615c43841913.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./polygon-JVGMAJ3S.js": {
+    "id": 2670,
+    "files": [
+      "static/chunks/670.0847fb591a7f6819.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./refresh-J4PXTKTR.js": {
+    "id": 21102,
+    "files": [
+      "static/chunks/102.7820f6f55543f42b.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./scan-RESLZYEA.js": {
+    "id": 16370,
+    "files": [
+      "static/chunks/370.e4db72219564c556.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\chunk-GH36UIKI.js -> ./sign-3FIRYJVD.js": {
+    "id": 92738,
+    "files": [
+      "static/chunks/738.ee72abc1f92884dd.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\index.js -> ./braveWallet-VWIUQB2U.js": {
+    "id": 67564,
+    "files": [
+      "static/chunks/564.84edd714420f5c55.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\index.js -> ./coinbaseWallet-VVDQG4AO.js": {
+    "id": 21022,
+    "files": [
+      "static/chunks/22.ba6102f16e39dc1b.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\index.js -> ./injectedWallet-FYEFRY76.js": {
+    "id": 82258,
+    "files": [
+      "static/chunks/258.11a040137e288d9f.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\index.js -> ./metaMaskWallet-F3BDZH5W.js": {
+    "id": 47652,
+    "files": [
+      "static/chunks/652.1dd1672588887d19.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\index.js -> ./rainbowWallet-KSMGN6MJ.js": {
+    "id": 78048,
+    "files": [
+      "static/chunks/48.9a3ae69c260fd7ad.js"
+    ]
+  },
+  "..\\..\\node_modules\\@rainbow-me\\rainbowkit\\dist\\index.js -> ./walletConnectWallet-GTSESN7Q.js": {
+    "id": 20430,
+    "files": [
+      "static/chunks/430.67aa5148e32fa43b.js"
+    ]
+  },
+  "..\\..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 91203,
+    "files": [
+      "static/chunks/203.87361a31a19dc11a.js"
+    ]
+  },
+  "..\\..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 89894,
+    "files": [
+      "static/chunks/894.660dfc1aa8ffe475.js"
+    ]
+  },
+  "..\\..\\node_modules\\wagmi\\node_modules\\@wagmi\\core\\dist\\connectors\\coinbaseWallet.js -> @coinbase/wallet-sdk": {
+    "id": 45811,
+    "files": [
+      "static/chunks/764-f8441efbbce50fa9.js",
+      "static/chunks/811.9ade41558b8cc263.js",
+      "static/chunks/942.0ac71dd7cb84e71e.js"
+    ]
+  },
+  "..\\..\\node_modules\\wagmi\\node_modules\\@wagmi\\core\\dist\\connectors\\walletConnect.js -> @walletconnect/ethereum-provider": {
+    "id": 75317,
+    "files": [
+      "static/chunks/764-f8441efbbce50fa9.js",
+      "static/chunks/317.aa5f5202b7b4f8af.js",
+      "static/chunks/563.fbd5f4f9151f8110.js"
+    ]
+  }
+}

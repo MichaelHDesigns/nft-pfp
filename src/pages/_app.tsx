@@ -11,7 +11,7 @@ import PlausibleProvider from 'next-plausible'
 import type { AppProps } from 'next/app'
 
 const { chains, provider } = configureChains(
-  [chain.mainnet, chain.goerli],
+  [chain.mainnet],
   [
     infuraProvider({ apiKey: process.env.NEXT_PUBLIC_INFURA_KEY! }),
     publicProvider(),

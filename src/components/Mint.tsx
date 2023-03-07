@@ -72,7 +72,7 @@ export default function Mint({ state, setIsMintComplete }: MintProps) {
 
   if (isLoading) {
     return (
-      <Button as="a" href={getEtherscanUrl(data, chain)} loading>
+      <Button as="a" href={getEtherscanUrl(data)} loading>
         Minting NFT
       </Button>
     )
@@ -80,7 +80,7 @@ export default function Mint({ state, setIsMintComplete }: MintProps) {
 
   if (isError) {
     return (
-      <Button as="a" href={getEtherscanUrl(data, chain)} state="error">
+      <Button as="a" href={getEtherscanUrl(data)} state="error">
         Transaction Failed
       </Button>
     )
@@ -96,14 +96,19 @@ export default function Mint({ state, setIsMintComplete }: MintProps) {
           style={{ zIndex: '1000' }}
         />
 
-        <Success name="Minted NFT" href={getEtherscanUrl(data, chain)} />
+            <Success name="Minted NFT" href={getEtherscanUrl(data)} />
 
-        <Button as="a" href={getOpenseaUrl(chain)} state="success">
-          View on OpenSea
-        </Button>
+        <Button as="a" href={getOpenseaUrl()} state="success">
+           View on OpenSea
+        </Button >
       </>
     )
   }
 
   return null
 }
+
+
+// <Button as="a" href={getOpenseaUrl(chain)} state="success">
+//View on OpenSea
+//        </Button >

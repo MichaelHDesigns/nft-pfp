@@ -27,7 +27,7 @@ export default function useNfts(address?: string, chain?: Chain): Response {
         while (cursor !== null) {
           const response = await fetch(
             `https://${
-              chain?.id === 5 ? 'testnets-' : ''
+              chain?.id === 1 ? 'testnets-' : ''
             }api.opensea.io/api/v1/assets?owner=${address}&limit=50&cursor=${cursor}`
           )
           const data = await response.json()

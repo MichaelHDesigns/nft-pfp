@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.next\\server\\pages\\api",
+    "\\node_modules",
+    "\\node_modules\\wagmi",
+    "\\node_modules\\wagmi\\node_modules",
+    "\\node_modules\\wagmi\\node_modules\\@wagmi",
+    "\\node_modules\\wagmi\\node_modules\\@wagmi\\core",
+    "\\node_modules\\wagmi\\node_modules\\@wagmi\\core\\dist"
+  ],
+  "SelectedNode": "\\src",
+  "PreviewInSolutionExplorer": false
+}

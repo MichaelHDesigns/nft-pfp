@@ -3,7 +3,7 @@ import { useNetwork } from 'wagmi'
 import { useState } from 'react'
 import Head from 'next/head'
 
-import { getOpenseaUrl } from '../utils/contract'
+//import { getOpenseaUrl } from '../utils/contract'
 import Button from '../components/Button'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
@@ -89,7 +89,7 @@ export default function Home() {
             <p>
               It will upload your image to IPFS, a decentralized file storage
               system, then mint it as an NFT in a{' '}
-              <a href={getOpenseaUrl(chain)} target="_blank" rel="noreferrer">
+              <a href="https://expedition.altcoinchain.org" target="_blank" rel="noreferrer">
                 shared collection
               </a>{' '}
               on the Ethereum blockchain.

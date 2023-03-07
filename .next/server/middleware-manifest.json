@@ -1,0 +1,43 @@
+{
+  "sortedMiddleware": [],
+  "middleware": {},
+  "functions": {
+    "/api/ens-avatar": {
+      "env": [
+        "JEST_WORKER_ID"
+      ],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/ens-avatar.js"
+      ],
+      "name": "pages/api/ens-avatar",
+      "page": "/api/ens-avatar",
+      "matchers": [
+        {
+          "regexp": "^/api/ens\\-avatar$"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_53adb396180a95eb122a0218c93e3d6474b1a27e",
+          "filePath": "server/edge-chunks/wasm_53adb396180a95eb122a0218c93e3d6474b1a27e.wasm"
+        },
+        {
+          "name": "wasm_5b50c798761dc0131e9ebe945031077e8a02633b",
+          "filePath": "server/edge-chunks/wasm_5b50c798761dc0131e9ebe945031077e8a02633b.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "PlusJakartaSans-Bold.7f5884e8a1d931f2.ttf",
+          "filePath": "server/edge-chunks/asset_PlusJakartaSans-Bold.7f5884e8a1d931f2.ttf"
+        },
+        {
+          "name": "noto-sans-v27-latin-regular.5dda3fca77107598.ttf",
+          "filePath": "server/edge-chunks/asset_noto-sans-v27-latin-regular.5dda3fca77107598.ttf"
+        }
+      ]
+    }
+  },
+  "version": 2
+}

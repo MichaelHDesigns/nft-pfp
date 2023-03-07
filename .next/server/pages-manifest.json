@@ -1,0 +1,11 @@
+{
+  "/api/ens-avatar": "pages/api/ens-avatar.js",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/notify": "pages/api/notify.js",
+  "/ens": "pages/ens.html",
+  "/": "pages/index.html",
+  "/api/pin": "pages/api/pin.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

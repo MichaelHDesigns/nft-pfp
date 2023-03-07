@@ -14,21 +14,21 @@ export const ABI = [
 ]
 
 export const getContractAddress = (chainId?: number) => {
-  return chainId === 5
-    ? '0xfbaD712D849144f0471cE5d2e47E6295042C8625'
-    : '0x4A4f4A202C840f7247CfCb429e1B41A5509176D8'
+  return chainId === 1
+        ? '0x8dA3dA022d7a5224615c8F2E3fFdDc5B883B24A2'
+        : '0x87E0a4fC215C13d6727f0dbB1700875dc02cBF16'
 }
 
 export const getEtherscanUrl = (data: SendTransactionResult, chain?: Chain) => {
-  return chain?.id === 5
-    ? `https://goerli.etherscan.io/tx/${data.hash}`
-    : `https://etherscan.io/tx/${data.hash}`
+  return chain?.id === 1
+        ? `https://expedition.altcoinchain.org/tx/${data.hash}`
+        : `https://expedition.altcoinchain.org/tx/${data.hash}`
 }
 
 export const getOpenseaUrl = (chain?: Chain) => {
   return chain?.id === 5
     ? 'https://testnets.opensea.io/collection/opennft-iboh5rhaks?search[sortAscending]=false&search[sortBy]=CREATED_DATE'
-    : 'https://opensea.io/collection/opennft-v3?search[sortAscending]=false&search[sortBy]=CREATED_DATE'
+    : 'https://expedition.altcoinchain.org'
 }
 
 /**
